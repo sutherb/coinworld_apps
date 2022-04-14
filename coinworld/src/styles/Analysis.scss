@@ -1,0 +1,58 @@
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+#coin-analysis .container {
+  max-width: 9650px;
+}
+
+.tv-lightweight-charts, .chart-controls {
+  margin: 0 auto;
+
+  .btn-group {
+    padding-right: 10px;
+  }
+}
+
+
+.dropdown {
+  position: absolute;
+}
+
+
+#chart-display {
+  margin: 20px 0;
+  > div {
+    margin: auto;
+  }
+} 
+
+.chart-controls {
+  margin: 20px 10px;
+  
+} 
+
+
+#portfolio-select {
+  padding-bottom: 10px;
+  display: inline-block;
+  text-align: left;
+
+  span {
+    padding: 7px 12px;
+    position: relative;
+  }
+
+  .btn-group {
+    width: 150px;
+  }
+}
+
+.row {
+  margin: 10px 40px !important;
+}
+
+#coin-select {
+  width: 300px;
+  margin: auto;
+  display: inline-block;
+  padding-bottom: 10px;
+}

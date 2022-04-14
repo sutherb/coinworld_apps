@@ -1,0 +1,42 @@
+{
+  "defaultChartOptions": {    
+    "layout": {
+      "backgroundColor": "#303030",
+      "textColor": "#fd7e14",
+      "fontSize": 12,
+      "fontFamily": "Calibri",
+      "horzAlign": "center"    
+    },
+    "watermark": {
+      "text": "Coin World!",
+      "color": "rgba(66, 66, 66, 0.7)",
+      "visible": "true",
+      "fontSize": "24",
+      "horzAlign": "right",
+      "vertAlign": "bottom"
+    },
+    "grid": {
+      "vertLines": {
+          "color": "rgba(70, 130, 180, 0.7)",
+          "style": "1",
+          "visible": "true"
+      },
+      "horzLines": {
+          "color": "rgba(70, 130, 180, 0.7)",
+          "style": "1",
+          "visible": "true"
+      }
+    },
+    "lineWidth": 1,
+    "priceLineWidth": 1,
+    "priceLineColor": "#fd7e14",
+    "color": "orange"
+  },
+  "defaultLineOptions": {
+    "color": "orange"
+  },
+  "defaultChartDimensions" : {
+    "width": "500",
+    "height": "300"
+  }
+}

@@ -1,0 +1,105 @@
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.table-container {
+  max-width: 690px;
+  margin: 0 auto;
+}
+
+.light .table.coin-table {
+  color: black;
+}
+
+.table.coin-table {
+  /* font-size: 0.8em; */
+  text-align: left;
+
+  tr.add-coin td {
+    text-align: center;
+    
+    a {
+      padding: 5px 84px;
+      margin: 0 auto;
+    }
+    
+  }
+  tr.portfolio-control td  {
+    border: none;
+    .btn {
+      border: none;
+    }
+  }
+
+  th:nth-child(1), td:nth-child(1) {
+    padding-left: 20px;
+  }
+  th:last-child, td:last-child {
+    padding-right: 20px;
+  }
+
+  td {
+    vertical-align: middle;
+    padding-top: 12px;
+  }
+  td.btn-area {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+
+  .coin-symbol {
+    text-align: center;
+  }
+
+  .coin-units {
+    text-align: right;
+  }
+
+  .coin-value {
+    text-align: right;
+    padding-right: 10px;
+  }
+
+  &.edit {
+    th.coin-value {
+      padding-right: 15%;
+    }
+    th.coin-units {
+      text-align: right;
+      padding-left: 25px;
+      padding-right: 13%;
+    }
+  } 
+
+  span {
+    display: block ruby;
+  }
+
+  input {
+    width: 80%;
+    text-align: right;
+    min-width: 84px;
+    max-width: 200px;
+  }
+
+  .sign:before, .coin-value-input:before {
+    padding-right: 3px;
+    content:"$";
+  }
+
+  .fa-trash, .fa-minus-circle {
+    display: none;
+    width: 15px;
+  }
+
+  .fa-trash.show, .fa-minus-circle.show {
+    display: block;
+    
+  }
+
+}
+
+
+.search-icon .fa-times {
+  cursor: pointer;
+}
+

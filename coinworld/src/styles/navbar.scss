@@ -1,0 +1,23 @@
+@import "~bootstrap/scss/mixins/_breakpoints";
+
+.navbar {
+  padding: 0 !important;
+
+  #navbarDropdown {
+    border: 0;
+    color: #fff;
+  }
+
+  .text {
+    display: none;
+    padding-left: 15px;
+  }
+
+}
+
+
+@media (min-width: 768px) {
+  .navbar .text {
+    display: inline;
+  }
+}
